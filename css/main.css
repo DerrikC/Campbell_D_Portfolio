@@ -2,25 +2,127 @@ body, html {
   height: 100%;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
+/*Mobile-------------------------------*/
+@media (max-width: 500px) {
+  /*HEADER & TOP NAV*/
+  #logo img {
+    width: 15%;
+  }
+  #topNav ul {
+    font-family: 'Futura', sans-serif;
+    display: hidden;
+    list-style: none;
+    float: right;
+  }
+  #topNav li {
+    padding: 10px;
+  }
+  /*HEADER & TOP NAV*/
+  /*BODY CONTENT*/
+  h1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+  }
+  body {
+    font-size: 15px;
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: #0E0E0E;
+  }
+  body #backgroundAccent {
+    background-color: #151516;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+            clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+    /* ^ creates the decorative background triangle*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  /*BODY CONTENT*/
 }
 
-body {
-  margin: 20px;
-  font-family: 'Libre Baskerville', serif;
-  color: white;
-  background-color: #0E0E0E;
+/*Tablet-------------------------------*/
+@media (max-width: 768px) and (min-width: 501px) {
+  /*HEADER & TOP NAV*/
+  #logo img {
+    width: 10%;
+  }
+  #topNav ul {
+    font-family: 'Futura', sans-serif;
+    display: hidden;
+    list-style: none;
+    float: right;
+  }
+  #topNav li {
+    padding: 10px;
+  }
+  /*HEADER & TOP NAV*/
+  /*BODY CONTENT*/
+  h1 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+  }
+  body {
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: #0E0E0E;
+  }
+  body #backgroundAccent {
+    background-color: #151516;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+            clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+    /* ^ creates the decorative background triangle*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  /*BODY CONTENT*/
 }
 
-body #backgroundAccent {
-  background-color: #151516;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-          clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-  /* ^ creates the decorative background triangle*/
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
+/*Desktop------------------------------*/
+@media (min-width: 769px) {
+  /*HEADER & TOP NAV*/
+  #logo img {
+    width: 5%;
+  }
+  #topNav ul {
+    font-family: 'Futura', sans-serif;
+    display: hidden;
+    list-style: none;
+    float: right;
+  }
+  #topNav li {
+    padding: 10px;
+  }
+  /*HEADER & TOP NAV*/
+  /*BODY CONTENT*/
+  h1 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .introText {
+    width: 45%;
+  }
+  body {
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: #0E0E0E;
+  }
+  body #backgroundAccent {
+    background-color: #151516;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+            clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+    /* ^ creates the decorative background triangle*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  /*BODY CONTENT*/
 }
 /*# sourceMappingURL=main.css.map */
