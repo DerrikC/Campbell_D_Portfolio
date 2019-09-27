@@ -1,0 +1,31 @@
+$colors: (
+    mainColor: #0E0E0E,
+    accentColor: #D1EBE5,
+    homeTriangle: #151516
+);
+
+body, html {
+    height: 100%;
+    
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    margin: 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: map-get($colors, mainColor);
+
+    #backgroundAccent {
+        background-color: map-get($colors, homeTriangle);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        /* ^ creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        
+    }
+}

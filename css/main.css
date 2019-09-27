@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 20px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  background-color: #0E0E0E;
+}
+
+body #backgroundAccent {
+  background-color: #151516;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+          clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+  /* ^ creates the decorative background triangle*/
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=main.css.map */
