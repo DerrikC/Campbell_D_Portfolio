@@ -13,6 +13,7 @@ body, html {
 /*HEADER & TOP NAV*/
 #logo img {
     width: 15%;
+    margin: 50px 10px 10px 50px;
 }
 
 #topNav ul {
@@ -29,10 +30,17 @@ body, html {
 /*HEADER & TOP NAV*/
 
 /*BODY CONTENT*/
-h1 {
-    font-size: 25px;
+body h1 {
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
 }
+
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
+}
+
 body {
     font-size: 15px;
     margin: 50px;
@@ -50,6 +58,11 @@ body {
         z-index: -1;
         
     }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
+    }
 }
 /*BODY CONTENT*/
 
@@ -59,7 +72,8 @@ body {
 @media (max-width:768px) and (min-width: 501px){
 /*HEADER & TOP NAV*/
 #logo img {
-    width: 10%;
+    width: 15%;
+    margin: 50px 10px 10px 50px;
 }
 
 #topNav ul {
@@ -76,11 +90,19 @@ body {
 /*HEADER & TOP NAV*/
 
 /*BODY CONTENT*/
-h1 {
-    font-size: 35px;
+body h1 {
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
 }
+
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
+}
+
 body {
+    font-size: 15px;
     margin: 50px;
     font-family: 'Libre Baskerville', serif;
     color: white;
@@ -96,6 +118,11 @@ body {
         z-index: -1;
         
     }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
+    }
 }
 /*BODY CONTENT*/
 
@@ -107,7 +134,8 @@ body {
 @media (min-width: 769px){
     /*HEADER & TOP NAV*/
 #logo img {
-    width: 5%;
+    width: 15%;
+    margin: 50px 10px 10px 50px;
 }
 
 #topNav ul {
@@ -124,16 +152,19 @@ body {
 /*HEADER & TOP NAV*/
 
 /*BODY CONTENT*/
-h1 {
-    font-size: 50px;
+body h1 {
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
 }
 
-.introText {
-    width: 45%;
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
 }
 
 body {
+    font-size: 15px;
     margin: 50px;
     font-family: 'Libre Baskerville', serif;
     color: white;
@@ -148,6 +179,11 @@ body {
         position: absolute;
         z-index: -1;
         
+    }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
     }
 }
 /*BODY CONTENT*/
