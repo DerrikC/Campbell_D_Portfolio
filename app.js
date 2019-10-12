@@ -17,14 +17,20 @@ app.get('/', (req, res) => {
 })
 
 // app.get('/contact', (req, res) => {
-//     res.sendFile(path.join(__dirname + '/views/contact.html'));
-//     //this builds local host:3000/views/contact.html
+//     res.sendFile(path.join(__dirname + '/about.html'));
+//     //this builds local host:3000/views/about.html
 // })
 
 // app.get('/gallery', (req, res) => {
-//     res.sendFile(path.join(__dirname + '/views/gallery.html'));
+//     res.sendFile(path.join(__dirname + '/portfolio.html'));
 //     //this builds local host:3000/views/portfolio.html
 // })
+
+// app.get('/gallery', (req, res) => {
+//     res.sendFile(path.join(__dirname + '/contact.html'));
+//     //this builds local host:3000/views/contact.html
+// })
+
 
 app.listen(port, () => {
     console.log(`Server runnin at ${port}`);
