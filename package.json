@@ -1,5 +1,5 @@
-npm{
-  "name": "Campbell_D_Portfolio",
+{
+  "name": "campbell_d_portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,6 +10,7 @@ npm{
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "expressed": "^0.5.2"
   }
 }
