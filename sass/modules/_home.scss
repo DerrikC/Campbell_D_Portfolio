@@ -12,6 +12,11 @@ body, html {
 
 /*BODY CONTENT*/
 
+.introText p {
+    color: #525050;
+    font-size: 15px;
+}
+
 header {
     display: absolute;
     width: 100%;
@@ -20,7 +25,7 @@ header {
 }
 
 body h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -84,6 +89,25 @@ body {
         height: 200px;
         margin-bottom: 15px;
     }
+
+    .bottomLogo {
+        position: relative;
+        font-family: Arial;
+        width: 105px;
+        height: 105px;
+    }
+    
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 20px;
+        position: absolute;
+        bottom: 30px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
 }
 
 /*BODY CONTENT*/
@@ -95,6 +119,12 @@ body {
 
 /*BODY CONTENT*/
 
+.introText p {
+    color: #525050;
+    font-size: 15px;
+    width: 55%;
+}
+
 header {
     display: absolute;
     width: 100%;
@@ -104,7 +134,7 @@ header {
 
 
 body h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -168,6 +198,24 @@ body {
         height: 200px;
         margin-bottom: 15px;
     }
+
+    .bottomLogo {
+        position: relative;
+        font-family: Arial;
+        width: 105px;
+        height: 105px;
+    }
+    
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 20px;
+        position: absolute;
+        bottom: 30px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
 }
 /*BODY CONTENT*/
 
@@ -178,6 +226,13 @@ body {
 /*Desktop------------------------------*/
 @media (min-width: 769px){
 
+.introText p {
+    color: #525050;
+    font-size: 15px;
+    width: 55%;
+    }
+
+    
 /*BODY CONTENT*/
 header {
     display: absolute;
@@ -187,7 +242,7 @@ header {
 }
 
 body h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -250,7 +305,26 @@ body {
         background-color: grey;
         width: 100%;
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
+    }
+
+    .bottomLogo {
+        position: relative;
+        font-family: Arial;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 60px;
+        position: absolute;
+        bottom: 100px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 80px;
+        padding-right: 20px;
+        width: 400px;
     }
 }
 /*BODY CONTENT*/
