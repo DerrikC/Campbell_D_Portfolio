@@ -1,0 +1,95 @@
+/*Mobile-------------------------------*/
+@media (max-width:500px) {
+   /*HEADER & TOP NAV*/
+
+
+#topNav {
+    float: right;
+}
+
+#topNav ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Futura', sans-serif;
+    display: none;
+    list-style: none;
+    float: right;
+}
+
+#topNav li {
+   padding: 10px;
+   display: inline-block;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+}
+    
+    /*Tablet-------------------------------*/
+    @media (max-width:768px) and (min-width: 501px){
+        
+
+        #topNav {
+            display: inline-block;
+        }
+
+        #topNav ul {
+            margin: 0;
+            padding: 0;
+            font-family: 'Futura', sans-serif;
+            display: none;
+            list-style: none;
+            float: right;
+        }
+        
+        #topNav li {
+           padding: 10px;
+           display: inline-block;
+        }
+        
+        .logo {
+            width: 35px;
+            height: 35px;
+            float: left;
+        }
+
+    }
+/*HEADER & TOP NAV*/
+
+    
+    /*Desktop------------------------------*/
+    @media (min-width: 769px){
+/*HEADER & TOP NAV*/
+
+#topNav {
+    float: right;
+}
+
+#topNav ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Futura', sans-serif;
+    display: hidden;
+    list-style: none;
+    float: right;
+}
+
+#topNav li {
+   padding: 10px;
+   display: inline-block;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+/*HEADER & TOP NAV*/
+
+
+    }

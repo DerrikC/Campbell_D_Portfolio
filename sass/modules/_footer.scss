@@ -1,0 +1,68 @@
+/*Mobile-------------------------------*/
+@media (max-width:500px) {
+#bottomNav ul {
+    font-family: 'Futura', sans-serif;
+    display: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#bottomNav li {
+    padding: 10px;
+    float: right;
+ }
+
+ .copyright {
+     display: flex;
+     justify-content: center;
+ }
+
+}
+
+/*Tablet-------------------------------*/
+@media (max-width:768px) and (min-width: 501px){
+    #bottomNav ul {
+        font-family: 'Futura', sans-serif;
+        display: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    #bottomNav li {
+        padding: 10px;
+        float: right;
+     }
+
+     .copyright {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/*Desktop------------------------------*/
+@media (min-width: 769px){
+    #bottomNav ul {
+        font-family: 'Futura', sans-serif;
+        display: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    #bottomNav li {
+        padding: 10px;
+        float: right;
+     }
+
+     .copyright {
+        display: flex;
+        justify-content: center;
+    }
+}
