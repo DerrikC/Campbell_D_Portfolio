@@ -6,6 +6,7 @@ $colors: (
 
 body, html {
     height: 100%;
+    min-width: 400px;
 }
 /*Mobile-------------------------------*/
 @media (max-width:500px) {
@@ -16,6 +17,7 @@ body, html {
     color: #525050;
     font-size: 15px;
 }
+
 
 header {
     display: absolute;
@@ -42,16 +44,16 @@ body {
     color: white;
     background-color: map-get($colors, mainColor);
 
-    // #backgroundAccent {
-    //     // background-color: map-get($colors, homeTriangle);
-    //     // -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-    //     // clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-    //     // // height: 100%;
-    //     // // width: 100%;
-    //     // position: absolute;
-    //     // z-index: -1;
-        
-    // }
+    #backgroundAccent {
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
 
     main {
         font-size: 15px;
@@ -91,12 +93,13 @@ body {
     }
 
     .bottomLogo {
+        float: left;
         position: relative;
-        font-family: Arial;
         width: 105px;
         height: 105px;
     }
     
+
     .tagLine {
         font-family: 'Libre Baskerville', serif; 
         font-size: 20px;
@@ -111,6 +114,26 @@ body {
 }
 
 /*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
+
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 30px;
+   padding: 10px;
+}
 
 }
 
@@ -152,14 +175,14 @@ body {
     background-color: map-get($colors, mainColor);
 
     #backgroundAccent {
-        // background-color: map-get($colors, homeTriangle);
-        // -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        // clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-        // height: 100%;
-        // width: 100%;
-        // position: absolute;
-        // z-index: -1;
-        
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
     }
 
     main {
@@ -218,7 +241,26 @@ body {
     }
 }
 /*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
 
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 30px;
+   padding: 10px;
+}
 
 }
 
@@ -232,7 +274,9 @@ body {
     width: 55%;
     }
 
-    
+    button {
+        display: none;
+    }
 /*BODY CONTENT*/
 header {
     display: absolute;
@@ -260,13 +304,14 @@ body {
     background-color: map-get($colors, mainColor);
 
     #backgroundAccent {
-        // background-color: map-get($colors, homeTriangle);
-        // -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        // clip-path: polygon(100% 0, 100% 100%, 50% 50%);/* creates the decorative background triangle*/
-        // height: 100%;
-        // width: 100%;
-        // position: absolute;
-        // z-index: -1;
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/* creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right:0;
+        position: absolute;
+        z-index: -1;
         
     }
 
@@ -310,7 +355,6 @@ body {
 
     .bottomLogo {
         position: relative;
-        font-family: Arial;
         width: 300px;
         height: 300px;
     }
@@ -326,7 +370,27 @@ body {
         padding-right: 20px;
         width: 400px;
     }
+
 }
 /*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
 
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 30px;
+   padding: 10px;
+}
 }
