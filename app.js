@@ -16,14 +16,14 @@ app.get('/', (req, res) => {
     //this builds local host:3000/views/index.html
 })
 
-// app.get('/contact', (req, res) => {
+// app.get('/about', (req, res) => {
 //     res.sendFile(path.join(__dirname + '/about.html'));
 //     //this builds local host:3000/views/about.html
 // })
 
-// app.get('/gallery', (req, res) => {
-//     res.sendFile(path.join(__dirname + '/portfolio.html'));
-//     //this builds local host:3000/views/portfolio.html
+// app.get('/projects', (req, res) => {
+//     res.sendFile(path.join(__dirname + '/projects.html'));
+//     //this builds local host:3000/views/projects.html
 // })
 
 // app.get('/gallery', (req, res) => {
