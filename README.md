@@ -1,4 +1,4 @@
-![derrikxavier Logo](../public/images/derrikxavier_Readme.svg)
+![derrikxavier Logo](/public/images/derrikxavier_Readme.svg)
 # Derrik-Xavier Campbell's Portfolio
 Design &amp; Coding
 
