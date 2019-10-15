@@ -21,6 +21,7 @@
    display: inline-block;
 }
 
+
 .logo {
     width: 100px;
     height: auto;
@@ -40,21 +41,31 @@
     cursor: pointer;
 }
 
-#closeBtn{
-    width: 25px;
-}
-
 // toggle navigation setup
 #toggleList {
+    position: fixed;
 	display: none;
-	margin-top: 20px;
+    right: 0;
 }
+
+#toggleList li {
+    padding: 10px;
+}
+
+#toggleList a{
+    text-decoration: none;
+    color: black;
+ }
 
 #toggleList.active {
     display: block;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
     margin-right: 0px;
     color: black;
     background-color: white;
+    width: 100%;
   }
 
 
@@ -92,6 +103,11 @@ button {
            padding: 10px;
            display: inline-block;
         }
+
+        #topNav a{
+            text-decoration: none;
+            color: black;
+         }
         
         .logo {
             width: 100px;
@@ -99,6 +115,10 @@ button {
             float: left;
         }
 
+        #burgBtn{
+            cursor: pointer;
+        }
+        
         .toggleNav {
             position: absolute;
             right: 0;
@@ -110,6 +130,33 @@ button {
             padding: 0px 50px 0px 0px;
         }
         
+        // toggle navigation setup
+#toggleList {
+    position: fixed;
+	display: none;
+    right: 0;
+}
+
+#toggleList li {
+    padding: 10px;
+}
+
+#toggleList a{
+    text-decoration: none;
+    color: black;
+ }
+
+#toggleList.active {
+    display: block;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    margin-right: 0px;
+    color: black;
+    background-color: white;
+    width: 100%;
+  }
+
         button {
             border: 0;
             padding: 0;
@@ -145,11 +192,20 @@ button {
    display: inline-block;
 }
 
+#topNav a{
+    text-decoration: none;
+    color: white;
+ }
+
 .logo {
     width: 100px;
     height: auto;
     float: left;
 }
+
+#toggleList a{
+    display: none;
+ }
 
 #hamMenu {
     display: none;

@@ -1,0 +1,393 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*Mobile-------------------------------*/
+@media (max-width:500px) {
+
+/*BODY CONTENT*/
+
+
+.introText p {
+    color: #525050;
+    font-size: 15px;
+}
+
+
+header {
+    display: absolute;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+body h1 {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
+}
+
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
+}
+
+body {
+    font-size: 15px;
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: map-get($colors, mainColor);
+
+    #backgroundAccent {
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
+    }
+
+    #project1 {
+        display: flex;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project2 {
+        display: flex;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project3 {
+        display: flex;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project4 {
+        display: flex;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    .bottomLogo {
+        float: left;
+        position: relative;
+        width: 105px;
+        height: 105px;
+    }
+    
+
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 20px;
+        position: absolute;
+        bottom: 30px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+}
+
+/*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
+
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 45px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 25px;
+   padding: 5px;
+}
+
+}
+
+/*Tablet-------------------------------*/
+@media (max-width:768px) and (min-width: 501px){
+
+/*BODY CONTENT*/
+
+.introText p {
+    color: #525050;
+    font-size: 15px;
+    width: 55%;
+}
+
+header {
+    display: absolute;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+
+body h1 {
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
+}
+
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
+}
+
+body {
+    font-size: 15px;
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: map-get($colors, mainColor);
+
+    #backgroundAccent {
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
+    }
+
+    #project1 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project2 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project3 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project4 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    .bottomLogo {
+        position: relative;
+        font-family: Arial;
+        width: 105px;
+        height: 105px;
+    }
+    
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 20px;
+        position: absolute;
+        bottom: 30px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+/*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
+
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 30px;
+   padding: 10px;
+}
+
+}
+
+
+/*Desktop------------------------------*/
+@media (min-width: 769px){
+
+.introText p {
+    color: #525050;
+    font-size: 15px;
+    width: 55%;
+    }
+
+    button {
+        display: none;
+    }
+/*BODY CONTENT*/
+header {
+    display: absolute;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+body h1 {
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 25px 0px 25px 0px;
+}
+
+body p {
+    margin: 25px 0px 25px 0px;
+    font-size: 1.2rem;
+}
+
+body {
+    font-size: 15px;
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: map-get($colors, mainColor);
+
+    #backgroundAccent {
+        background-color: map-get($colors, homeTriangle);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/* creates the decorative background triangle*/
+        height: 100%;
+        width: 100%;
+        right:0;
+        position: absolute;
+        z-index: -1;
+        
+    }
+
+    main {
+        font-size: 15px;
+        margin: 50px;
+    }
+
+
+    #project1 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project2 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project3 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    #project4 {
+        display: absolute;
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .bottomLogo {
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tagLine {
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 60px;
+        position: absolute;
+        bottom: 100px;
+        margin-left: 20px;
+        color: #333333;
+        padding-left: 80px;
+        padding-right: 20px;
+        width: 400px;
+    }
+
+}
+/*BODY CONTENT*/
+#pageEnd {
+    display: flex;
+}
+
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+}
+
+.socialMedia li {
+    float: right;
+}
+
+.socialMedia a {
+   display: block;
+   width: 30px;
+   padding: 10px;
+}
+}
