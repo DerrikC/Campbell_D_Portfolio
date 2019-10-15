@@ -135,7 +135,8 @@
 @media (min-width: 769px) {
   /*HEADER & TOP NAV*/
   #topNav {
-    float: right; }
+    float: right;
+    z-index: 999; }
 
   #topNav ul {
     margin: 0;
@@ -515,15 +516,25 @@ body, html {
       height: 40%;
       margin-bottom: 15px; }
     body .bioText {
-      width: 30%; }
+      width: 40%;
+      z-index: 2;
+      padding: 25px; }
+    body .bioText h2 {
+      font-size: 14px;
+      font-family: 'Futura', sans-serif; }
     body .bioText p {
       font-size: 8px;
-      font-family: futura, sans-serif; }
+      font-family: 'Libre Baskerville', serif;
+      color: #A2A2A2; }
+    body .watermark {
+      width: 100%; }
+    body .bioText img {
+      width: 80%; }
     body .bioProfile {
       display: flex; }
     body .bioProfile img {
       position: absolute;
-      width: 200px;
+      width: 175px;
       height: auto;
       right: 0;
       bottom: 0;
@@ -549,22 +560,16 @@ body, html {
       padding-left: 30px;
       padding-right: 20px; }
 
-  /*BODY CONTENT*/
   #pageEnd {
     display: flex; }
 
-  .socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 45px 0px 0px; }
+  .socialAbout li {
+    float: left; }
 
-  .socialMedia li {
-    float: right; }
-
-  .socialMedia a {
+  .socialAbout a {
     display: block;
-    width: 25px;
-    padding: 5px; } }
+    width: 20px;
+    padding: 1px; } }
 /*Tablet-------------------------------*/
 @media (max-width: 768px) and (min-width: 501px) {
   /*BODY CONTENT*/
@@ -607,26 +612,39 @@ body, html {
     body main {
       font-size: 15px;
       margin: 50px; }
-    body #project1 {
-      display: absolute;
-      background-color: grey;
+    body #bioCont {
+      display: flex;
+      position: relative;
+      background-color: #101010;
       width: 100%;
-      height: 200px;
+      height: 40%;
       margin-bottom: 15px; }
+    body .bioText {
+      width: 40%;
+      z-index: 2;
+      padding: 25px; }
+    body .bioText h2 {
+      font-size: 14px;
+      font-family: 'Futura', sans-serif; }
+    body .bioText p {
+      font-size: 8px;
+      font-family: 'Libre Baskerville', serif;
+      color: #A2A2A2; }
+    body .watermark {
+      width: 100px; }
+    body .bioText img {
+      width: 80%; }
+    body .bioProfile {
+      display: flex; }
+    body .bioProfile img {
+      position: absolute;
+      width: 300px;
+      height: auto;
+      right: 0;
+      bottom: 0;
+      z-index: 1; }
     body #project2 {
-      display: absolute;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 15px; }
-    body #project3 {
-      display: absolute;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 15px; }
-    body #project4 {
-      display: absolute;
+      display: flex;
       background-color: grey;
       width: 100%;
       height: 200px;
@@ -646,22 +664,16 @@ body, html {
       padding-left: 30px;
       padding-right: 20px; }
 
-  /*BODY CONTENT*/
   #pageEnd {
     display: flex; }
 
-  .socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 40px 0px 0px; }
+  .socialAbout li {
+    float: left; }
 
-  .socialMedia li {
-    float: right; }
-
-  .socialMedia a {
+  .socialAbout a {
     display: block;
-    width: 30px;
-    padding: 10px; } }
+    width: 20px;
+    padding: 2px; } }
 /*Desktop------------------------------*/
 @media (min-width: 769px) {
   .introText p {
@@ -672,7 +684,6 @@ body, html {
   button {
     display: none; }
 
-  /*BODY CONTENT*/
   header {
     display: absolute;
     width: 100%;
@@ -707,30 +718,44 @@ body, html {
     body main {
       font-size: 15px;
       margin: 50px; }
-    body #project1 {
-      display: absolute;
-      background-color: grey;
+    body #bioCont {
+      display: flex;
+      position: relative;
+      background-color: #101010;
       width: 100%;
-      height: 200px;
+      min-height: 400px;
+      margin-top: 100px;
       margin-bottom: 15px; }
+    body .bioText {
+      width: 50%;
+      z-index: 2;
+      padding: 25px; }
+    body .bioText h2 {
+      font-size: 24px;
+      font-family: 'Futura', sans-serif; }
+    body .bioText p {
+      font-size: 18px;
+      font-family: 'Libre Baskerville', serif;
+      color: #A2A2A2; }
+    body .watermark {
+      width: 200px; }
+    body .bioText img {
+      width: 80%; }
+    body .bioProfile {
+      display: flex; }
+    body .bioProfile img {
+      position: absolute;
+      width: 450px;
+      height: auto;
+      right: 0;
+      bottom: 0;
+      z-index: 1; }
     body #project2 {
-      display: absolute;
+      display: flex;
       background-color: grey;
       width: 100%;
       height: 200px;
       margin-bottom: 15px; }
-    body #project3 {
-      display: absolute;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 15px; }
-    body #project4 {
-      display: absolute;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 50px; }
     body .bottomLogo {
       position: relative;
       width: 300px;
@@ -746,22 +771,19 @@ body, html {
       padding-right: 20px;
       width: 400px; }
 
-  /*BODY CONTENT*/
   #pageEnd {
     display: flex; }
 
-  .socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 40px 0px 0px; }
+  .socialAbout {
+    margin-top: 50px; }
 
-  .socialMedia li {
-    float: right; }
+  .socialAbout li {
+    float: left; }
 
-  .socialMedia a {
+  .socialAbout a {
     display: block;
-    width: 30px;
-    padding: 10px; } }
+    width: 45px;
+    padding: 5px; } }
 /*Mobile-------------------------------*/
 @media (max-width: 500px) {
   #bottomNav ul {
@@ -776,7 +798,7 @@ body, html {
 
   #bottomNav li {
     padding: 10px;
-    float: right; }
+    float: left; }
 
   #bottomNav a {
     text-decoration: none;
