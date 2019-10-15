@@ -52,7 +52,8 @@
     margin-right: 0px;
     color: black;
     background-color: white;
-    width: 100%; }
+    width: 100%;
+    z-index: 999; }
 
   button {
     border: 0;
@@ -119,7 +120,8 @@
     margin-right: 0px;
     color: black;
     background-color: white;
-    width: 100%; }
+    width: 100%;
+    z-index: 999; }
 
   button {
     border: 0;
@@ -471,10 +473,6 @@ body, html {
 /*Mobile-------------------------------*/
 @media (max-width: 500px) {
   /*BODY CONTENT*/
-  .introText p {
-    color: #525050;
-    font-size: 15px; }
-
   header {
     display: absolute;
     width: 100%;
@@ -509,25 +507,28 @@ body, html {
     body main {
       font-size: 15px;
       margin: 50px; }
-    body #project1 {
+    body #bioCont {
       display: flex;
-      background-color: grey;
+      position: relative;
+      background-color: #101010;
       width: 100%;
-      height: 200px;
+      height: 40%;
       margin-bottom: 15px; }
+    body .bioText {
+      width: 30%; }
+    body .bioText p {
+      font-size: 8px;
+      font-family: futura, sans-serif; }
+    body .bioProfile {
+      display: flex; }
+    body .bioProfile img {
+      position: absolute;
+      width: 200px;
+      height: auto;
+      right: 0;
+      bottom: 0;
+      z-index: 1; }
     body #project2 {
-      display: flex;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 15px; }
-    body #project3 {
-      display: flex;
-      background-color: grey;
-      width: 100%;
-      height: 200px;
-      margin-bottom: 15px; }
-    body #project4 {
       display: flex;
       background-color: grey;
       width: 100%;
