@@ -42,7 +42,8 @@
   #toggleList.active {
     display: block;
     margin-right: 0px;
-    background-color: grey; }
+    color: black;
+    background-color: white; }
 
   button {
     border: 0;
