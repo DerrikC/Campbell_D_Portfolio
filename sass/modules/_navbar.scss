@@ -172,12 +172,13 @@ button {
 /*HEADER & TOP NAV*/
 
     
-    /*Desktop------------------------------*/
+/*Desktop------------------------------*/
     @media (min-width: 769px){
 /*HEADER & TOP NAV*/
 
 #topNav {
     float: right;
+    z-index: 999;
 }
 
 #topNav ul {

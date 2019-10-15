@@ -60,13 +60,29 @@ body {
         margin-bottom: 15px;
     }
      .bioText {
-        width: 30%;
+        width: 40%;
+        z-index: 2;
+        padding: 25px;
      }
-
+     .bioText h2 {
+        font-size: 14px;
+        font-family: 'Futura', sans-serif;
+     }
+     
      .bioText p {
         font-size: 8px;
-        font-family: futura, sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        color: #A2A2A2;
      }
+
+     .watermark {
+         width: 100%;
+     }
+
+    .bioText img {
+        width: 80%;
+    }
+
 
     .bioProfile {
        display: flex;
@@ -74,12 +90,15 @@ body {
 
     .bioProfile img {
         position: absolute;
-        width: 200px;
+        width: 175px;
         height: auto;
         right:0;
         bottom: 0;
         z-index: 1;
     }
+
+ 
+
     #project2 {
         display: flex;
         background-color: grey;
@@ -110,27 +129,22 @@ body {
 
 }
 
-/*BODY CONTENT*/
 #pageEnd {
     display: flex;
 }
 
 
-.socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 45px 0px 0px;
+.socialAbout li {
+    float: left;
 }
 
-.socialMedia li {
-    float: right;
-}
-
-.socialMedia a {
+.socialAbout a {
    display: block;
-   width: 25px;
-   padding: 5px;
+   width: 20px;
+   padding: 1px;
 }
+
+
 
 }
 
@@ -187,32 +201,54 @@ body {
         margin: 50px;
     }
 
-    #project1 {
-        display: absolute;
-        background-color: grey;
+    #bioCont {
+        display: flex;
+        position: relative;
+        background-color:#101010;
         width: 100%;
-        height: 200px;
+        height: 40%;
         margin-bottom: 15px;
     }
+     .bioText {
+        width: 40%;
+        z-index: 2;
+        padding: 25px;
+     }
+     .bioText h2 {
+        font-size: 14px;
+        font-family: 'Futura', sans-serif;
+     }
+     
+     .bioText p {
+        font-size: 8px;
+        font-family: 'Libre Baskerville', serif;
+        color: #A2A2A2;
+     }
+
+     .watermark {
+        width: 100px;
+    }
+
+    .bioText img {
+        width: 80%;
+    }
+
+    .bioProfile {
+       display: flex;
+    }
+
+    .bioProfile img {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        right:0;
+        bottom: 0;
+        z-index: 1;
+    }
+
 
     #project2 {
-        display: absolute;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-
-    #project3 {
-        display: absolute;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-
-    #project4 {
-        display: absolute;
+        display: flex;
         background-color: grey;
         width: 100%;
         height: 200px;
@@ -237,27 +273,21 @@ body {
         padding-right: 20px;
     }
 }
-/*BODY CONTENT*/
+
 #pageEnd {
     display: flex;
 }
 
-
-.socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 40px 0px 0px;
+.socialAbout li {
+    float: left;
 }
 
-.socialMedia li {
-    float: right;
-}
-
-.socialMedia a {
+.socialAbout a {
    display: block;
-   width: 30px;
-   padding: 10px;
+   width: 20px;
+   padding: 2px;
 }
+
 
 }
 
@@ -274,7 +304,7 @@ body {
     button {
         display: none;
     }
-/*BODY CONTENT*/
+
 header {
     display: absolute;
     width: 100%;
@@ -318,37 +348,60 @@ body {
     }
 
 
-    #project1 {
-        display: absolute;
-        background-color: grey;
+    #bioCont {
+        display: flex;
+        position: relative;
+        background-color:#101010;
         width: 100%;
-        height: 200px;
+        min-height: 400px;
+        margin-top: 100px;
         margin-bottom: 15px;
+    }
+     .bioText {
+        width: 50%;
+        z-index: 2;
+        padding: 25px;
+     }
+     .bioText h2 {
+        font-size: 24px;
+        font-family: 'Futura', sans-serif;
+     }
+     
+     .bioText p {
+        font-size: 18px;
+        font-family: 'Libre Baskerville', serif;
+        color: #A2A2A2;
+     }
+
+     .watermark {
+        width: 200px;
+    }
+
+    .bioText img {
+        width: 80%;
+    }
+
+    .bioProfile {
+       display: flex;
+    }
+
+    .bioProfile img {
+        position: absolute;
+        width: 450px;
+        height: auto;
+        right:0;
+        bottom: 0;
+        z-index: 1;
     }
 
     #project2 {
-        display: absolute;
+        display: flex;
         background-color: grey;
         width: 100%;
         height: 200px;
         margin-bottom: 15px;
     }
 
-    #project3 {
-        display: absolute;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-
-    #project4 {
-        display: absolute;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 50px;
-    }
 
     .bottomLogo {
         position: relative;
@@ -369,25 +422,22 @@ body {
     }
 
 }
-/*BODY CONTENT*/
+
 #pageEnd {
     display: flex;
 }
-
-
-.socialMedia {
-    position: absolute;
-    right: 0;
-    padding: 0px 40px 0px 0px;
+.socialAbout {
+   margin-top: 50px;
+}
+.socialAbout li {
+    float: left;
 }
 
-.socialMedia li {
-    float: right;
-}
-
-.socialMedia a {
+.socialAbout a {
    display: block;
-   width: 30px;
-   padding: 10px;
+   width: 45px;
+   padding: 5px;
 }
+
+
 }
