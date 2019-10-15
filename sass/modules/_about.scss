@@ -10,12 +10,6 @@ body, html {
 /*BODY CONTENT*/
 
 
-.introText p {
-    color: #525050;
-    font-size: 15px;
-}
-
-
 header {
     display: absolute;
     width: 100%;
@@ -57,14 +51,35 @@ body {
         margin: 50px;
     }
 
-    #project1 {
+    #bioCont {
         display: flex;
-        background-color: grey;
+        position: relative;
+        background-color:#101010;
         width: 100%;
-        height: 200px;
+        height: 40%;
         margin-bottom: 15px;
     }
+     .bioText {
+        width: 30%;
+     }
 
+     .bioText p {
+        font-size: 8px;
+        font-family: futura, sans-serif;
+     }
+
+    .bioProfile {
+       display: flex;
+    }
+
+    .bioProfile img {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        right:0;
+        bottom: 0;
+        z-index: 1;
+    }
     #project2 {
         display: flex;
         background-color: grey;
@@ -73,21 +88,6 @@ body {
         margin-bottom: 15px;
     }
 
-    #project3 {
-        display: flex;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-
-    #project4 {
-        display: flex;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 15px;
-    }
 
     .bottomLogo {
         float: left;
