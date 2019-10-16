@@ -38,6 +38,9 @@
 
 #burgBtn{
     width: 25px;
+    border: 0;
+    padding: 0;
+    background: none;
     cursor: pointer;
 }
 
@@ -68,14 +71,6 @@
     width: 100%;
     z-index: 999;
   }
-
-
-button {
-    border: 0;
-    padding: 0;
-    background: none;
-}
-
 
 
 }
@@ -176,6 +171,10 @@ button {
     @media (min-width: 769px){
 /*HEADER & TOP NAV*/
 
+#burgBtn {
+    display: none;
+}
+
 #topNav {
     float: right;
     z-index: 999;
@@ -193,6 +192,7 @@ button {
 #topNav li {
    padding: 10px;
    display: inline-block;
+   cursor: pointer;
 }
 
 #topNav a{
