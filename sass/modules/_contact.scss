@@ -1,0 +1,230 @@
+
+
+@media (max-width:500px) {
+
+    .contactTitle h2 {
+        font-family: 'Futura', sans-serif;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
+    .socialContact {
+        display: flex;
+        padding: 0px 15px 15px 15px;
+      }
+      
+      .socialContact li{
+          width: 25px;  
+          float: left;
+          padding: 4px;
+      }
+      
+      
+      #contactCont{
+        background-color: #111111;
+        height: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .contact {
+      text-align: center;
+    }
+
+    .contactText {
+        padding: 25px 25px 25px 25px;
+    }
+    
+    
+    .contactItems h2 {
+        color: black;
+        font-size: 40px;
+      }
+      
+     
+      .contactItems input[type="text"] {
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 80%;
+        border: none;
+        font-family: 'Futura', sans-serif;
+      }
+      
+      .contactItems textarea {
+        border: none;
+        font-family: 'Futura', sans-serif;
+        resize: none;
+        padding: 5px;
+        width: 80%;
+        height: 100px;
+        overflow-x: scroll;
+      }
+      
+    
+      .contact a{
+        width: 60px;
+        float:right;
+        display: block;
+        background-color: #D2EBE5;
+        color: black;
+        font-size: 10px;
+        text-decoration: none;
+        font-family: 'Futura', sans-serif;
+        padding: 5px;
+        right: 10;
+      }
+    
+    }
+
+@media (max-width:768px) and (min-width: 501px) {
+
+    .contactTitle h2 {
+        font-family: 'Futura', sans-serif;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
+    .socialContact {
+        width: 400px;
+        display: flex;
+        padding: 0px 15px 15px 15px;
+      }
+      
+      .socialContact li{
+          width: 25px;  
+          float: left;
+          padding: 4px;
+      }
+      
+      
+      #contactCont{
+        background-color: #111111;
+        height: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .contact {
+      text-align: center;
+    }
+
+    .contactText {
+        padding: 25px 25px 25px 25px;
+    }
+    
+    
+    .contactItems h2 {
+        color: black;
+        font-size: 40px;
+      }
+      
+     
+      .contactItems input[type="text"] {
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 80%;
+        border: none;
+        font-family: 'Futura', sans-serif;
+      }
+      
+      .contactItems textarea {
+        border: none;
+        font-family: 'Futura', sans-serif;
+        resize: none;
+        padding: 5px;
+        width: 80%;
+        height: 100px;
+        overflow-x: scroll;
+      }
+      
+    
+      .contact a{
+        width: 60px;
+        float:right;
+        display: block;
+        background-color: #D2EBE5;
+        color: black;
+        font-size: 10px;
+        text-decoration: none;
+        font-family: 'Futura', sans-serif;
+        padding: 5px;
+        right: 10;
+      }
+
+    }
+
+    @media (min-width: 769px) {
+
+
+        .contactTitle h2 {
+            font-family: 'Futura', sans-serif;
+            padding: 5px;
+            margin-top: 50px;
+        }
+
+        .socialContact {
+            width: 400px;
+            display: flex;
+            padding: 0px 15px 15px 15px;
+          }
+          
+          .socialContact li{
+              width: 25px;  
+              float: left;
+              padding: 4px;
+          }
+          
+          #contactCont{
+            background-color: #111111;
+            height: 300px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+          text-align: center;
+        }
+    
+        .contactText {
+            padding: 25px 25px 25px 25px;
+        }
+        
+        
+        .contactItems h2 {
+            color: black;
+            font-size: 40px;
+          }
+          
+         
+          .contactItems input[type="text"] {
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 80%;
+            border: none;
+            font-family: 'Futura', sans-serif;
+          }
+          
+          .contactItems textarea {
+            border: none;
+            font-family: 'Futura', sans-serif;
+            resize: none;
+            padding: 5px;
+            width: 80%;
+            height: 100px;
+            overflow-x: scroll;
+          }
+          
+        
+          .contact a{
+            width: 60px;
+            float:right;
+            display: block;
+            background-color: #D2EBE5;
+            color: black;
+            font-size: 10px;
+            text-decoration: none;
+            font-family: 'Futura', sans-serif;
+            padding: 5px;
+            right: 10;
+          }
+        }
