@@ -684,7 +684,7 @@ body, html {
     font-size: 15px;
     width: 55%; }
 
-  button {
+  #burgBtn {
     display: none; }
 
   header {
@@ -789,6 +789,13 @@ body, html {
     padding: 5px; } }
 /*Mobile-------------------------------*/
 @media (max-width: 500px) {
+  .briefText1 p {
+    font-size: 14px; }
+
+  #brief1 h2 {
+    font-family: 'Futura', sans-serif;
+    font-size: 20px; }
+
   #portfolio {
     display: flex;
     position: absolute;
@@ -798,8 +805,32 @@ body, html {
 
   #brief1 {
     display: absolute;
+    position: relative;
     background-color: grey;
     height: 400px; }
+
+  #brief1 img {
+    width: 250px;
+    height: auto;
+    bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .briefText1 {
+    padding: 20px; }
+
+  .moreInfo {
+    width: 60px;
+    display: absolute;
+    border: 0;
+    background-color: #D2EBE5;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    padding: 5px;
+    z-index: 1; }
 
   #brief2 {
     display: absolute;
@@ -824,11 +855,35 @@ body, html {
     margin: 50px; } }
 /*Tablet-------------------------------*/
 @media (max-width: 768px) and (min-width: 501px) {
+  #brief1 h2 {
+    font-family: 'Futura', sans-serif;
+    font-size: 20px; }
+
   #brief1 {
-    display: absolute;
+    display: flex;
     background-color: grey;
     width: 100%;
     height: 400px; }
+
+  .briefText1 {
+    padding: 35px; }
+
+  #brief1 img {
+    margin-top: 35px;
+    width: 350px;
+    height: 350px; }
+
+  .moreInfo {
+    width: 60px;
+    display: absolute;
+    border: 0;
+    background-color: #D2EBE5;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    padding: 5px;
+    z-index: 1; }
 
   #brief2 {
     display: absolute;
@@ -853,11 +908,35 @@ body, html {
     margin: 50px; } }
 /*Desktop------------------------------*/
 @media (min-width: 769px) {
+  #brief1 h2 {
+    font-family: 'Futura', sans-serif;
+    font-size: 20px; }
+
   #brief1 {
-    display: absolute;
+    display: flex;
     background-color: grey;
     width: 100%;
+    height: 400px;
+    justify-content: center; }
+
+  .briefText1 {
+    padding: 125px 50px 125px 50px; }
+
+  #brief1 img {
+    width: 400px;
     height: 400px; }
+
+  .moreInfo {
+    width: 60px;
+    display: absolute;
+    border: 0;
+    background-color: #D2EBE5;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    padding: 5px;
+    z-index: 1; }
 
   #brief2 {
     display: absolute;
