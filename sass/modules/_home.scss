@@ -114,6 +114,92 @@ body {
     .cover:hover img {
         display: none;
     }
+    
+    #project2 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+
+    #project2 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project2:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+  
+
+    #project3 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project3 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project3:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+
+
+    #project4 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project4 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project4:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
 
     .bottomLogo {
         float: left;
@@ -139,6 +225,7 @@ body {
 /*BODY CONTENT*/
 #pageEnd {
     display: flex;
+    padding: 15px 0px 0px 0px;
 }
 
 
@@ -269,11 +356,89 @@ body {
     }
 
     #project2 {
-        display: absolute;
-        background-color: grey;
-        width: 100%;
-        height: 200px;
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
         margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+
+    #project2 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project2:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+  
+
+    #project3 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project3 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project3:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+
+
+    #project4 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project4 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project4:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
     }
 
     .bottomLogo {
@@ -297,6 +462,7 @@ body {
 /*BODY CONTENT*/
 #pageEnd {
     display: flex;
+    padding: 15px 0px 0px 0px;
 }
 
 
@@ -405,6 +571,91 @@ body {
         filter: opacity(1); //removes overlay
     }
 
+    #project2 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+
+    #project2 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project2:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+  
+
+    #project3 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project3 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project3:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
+
+
+    #project4 {
+        position: relative;
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background-color: black; //overlay colour
+        text-align: center;
+    }
+    
+    #project4 .homeUI {
+        background-color: #333333;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
+        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
+        transition: transform .5s ease, filter 1.0s ease-in-out;
+        filter: opacity(0.05); //adds overlay 
+    }
+
+    #project4:hover .homeUI {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: opacity(1); //removes overlay
+    }
 
     .cover {
         display: inline-block;
@@ -431,37 +682,7 @@ body {
         display: none;
     }
 
-
-    #project2 {
-        position: relative;
-        background-color: grey;
-        width: auto;
-        height: 100%;
-        overflow: hidden;
-        margin-bottom: 15px;
-        background-color: black; //overlay colour
-        text-align: center;
-    }
-    
-    #project2 .homeUI {
-        background-color: #333333;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: transform .5s ease, filter 1.0s ease-in-out;
-        -moz-transition: transform .5s ease, filter 1.0s ease-in-out;
-        transition: transform .5s ease, filter 1.0s ease-in-out;
-        filter: opacity(0.05); //adds overlay 
-    }
-
-    #project2:hover .homeUI {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        transform: scale(1.1);
-        filter: opacity(1); //removes overlay
-    }
-
-
+/*Bottom*/
     .bottomLogo {
         position: relative;
         width: 300px;
@@ -481,9 +702,10 @@ body {
     }
 
 }
-/*BODY CONTENT*/
+
 #pageEnd {
     display: flex;
+    padding: 15px 0px 0px 0px;
 }
 
 
