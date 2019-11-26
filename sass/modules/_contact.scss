@@ -2,10 +2,14 @@
 
 @media (max-width:500px) {
 
+    .border {
+      margin: 50px;
+    }
     .contactTitle h2 {
         font-family: 'Futura', sans-serif;
         padding: 5px;
         margin-top: 50px;
+        text-align: center;
     }
 
     .socialContact {
@@ -16,7 +20,7 @@
       .socialContact li{
           width: 25px;  
           float: left;
-          padding: 4px;
+          padding: 1px;
       }
       
       
@@ -25,6 +29,8 @@
         height: 300px;
         margin-top: 15px;
         margin-bottom: 15px;
+        max-width: 400px;
+        margin: 0 auto;
     }
     
     .contact {
@@ -32,7 +38,7 @@
     }
 
     .contactText {
-        padding: 25px 25px 25px 25px;
+        padding: 50px 25px 25px 25px;
     }
     
     
@@ -78,10 +84,15 @@
 
 @media (max-width:768px) and (min-width: 501px) {
 
+    .border {
+      margin: 50px;
+    }
+
     .contactTitle h2 {
         font-family: 'Futura', sans-serif;
         padding: 5px;
         margin-top: 50px;
+        text-align: center;
     }
 
     .socialContact {
@@ -93,7 +104,7 @@
       .socialContact li{
           width: 25px;  
           float: left;
-          padding: 4px;
+          padding: 7px;
       }
       
       
@@ -102,6 +113,7 @@
         height: 300px;
         margin-top: 15px;
         margin-bottom: 15px;
+        margin: 0 auto;
     }
     
     .contact {
@@ -109,7 +121,7 @@
     }
 
     .contactText {
-        padding: 25px 25px 25px 25px;
+        padding: 50px 25px 25px 25px;
     }
     
     
@@ -155,11 +167,15 @@
 
     @media (min-width: 769px) {
 
+        .border {
+            margin: 50px;
+       }
 
         .contactTitle h2 {
             font-family: 'Futura', sans-serif;
             padding: 5px;
             margin-top: 50px;
+            text-align: center;
         }
 
         .socialContact {
@@ -171,7 +187,7 @@
           .socialContact li{
               width: 25px;  
               float: left;
-              padding: 4px;
+              padding: 7px;
           }
           
           #contactCont{
@@ -179,20 +195,24 @@
             height: 300px;
             margin-top: 15px;
             margin-bottom: 15px;
+            max-width: 900px;
+            margin: 0 auto;
         }
+
         
         .contact {
           text-align: center;
         }
     
         .contactText {
-            padding: 25px 25px 25px 25px;
+            padding: 50px 25px 25px 25px;
         }
         
         
         .contactItems h2 {
             color: black;
             font-size: 40px;
+
           }
           
          
