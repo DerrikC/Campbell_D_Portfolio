@@ -1,6 +1,23 @@
 /*Mobile-------------------------------*/
 @media (max-width:500px) {
 
+    .contTop {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+
+    }
+
+    .bottomCont {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+    }
+
+    #projIntro {
+        padding: 0px 50px 0px 50px;
+    }
+
     .topBanner {
         margin: 50px;
         
@@ -106,6 +123,24 @@
 
 /*Tablet-------------------------------*/
 @media (max-width:768px) and (min-width: 501px){
+
+    .contTop {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+
+    }
+
+    .bottomCont {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+    }
+
+    #projIntro {
+        padding: 0px 50px 0px 50px;
+    }
+
     h1 {
         text-align: left;
     }
@@ -186,6 +221,7 @@
 
     #bottom {
         margin: 50px;
+        text-align: left;
     }
 
 
@@ -195,6 +231,23 @@
 
 /*Desktop------------------------------*/
 @media (min-width: 769px){
+
+    .contTop {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+
+    }
+
+    .bottomCont {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+    }
+
+    #projIntro {
+        padding: 0px 50px 0px 50px;
+    }
 
     h1 {
         text-align: left;
@@ -225,6 +278,7 @@
 
     .briefText1 {
         padding: 125px 50px 125px 50px;
+        max-width: 600px;
     }
 
     #brief1 img {
@@ -275,6 +329,7 @@
 
     #bottom {
         margin: 50px;
+        text-align: left;
     }
 
     #topNav li {
