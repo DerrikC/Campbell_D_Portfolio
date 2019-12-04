@@ -31,7 +31,7 @@
         height: 400px;
     }
 
-    #tech img {
+    #tech .startImg {
         width: 200px;
         height: auto;
         display: block;
@@ -109,7 +109,14 @@
         margin: 50px;
     }
 
-
+    .tools ul {
+        display: table;
+        margin: 0 auto;
+     }
+    
+    .tools li {
+        display: table-cell;
+     }
 
 
 }
@@ -148,7 +155,7 @@
         height: 400px;
     }
 
-    #tech img {
+    #tech .startImg {
         width: 200px;
         height: auto;
         display: block;
@@ -224,6 +231,15 @@
         margin: 50px;
     }
 
+    .tools ul {
+        display: table;
+        margin: 0 auto;
+     }
+    
+     .tools li {
+        display: table-cell;
+     }
+    
 }
 
 
@@ -298,6 +314,7 @@
         width: 200px;
         height: 200px;
         margin: 50px;
+        margin: 0 auto;
     }
 
     #process {
@@ -323,6 +340,14 @@
     #topNav li {
         cursor: pointer;
      }
+
+     .tools ul {
+        display: table;
+        margin: 0 auto;
+     }
     
+     .tools li {
+        display: table-cell;
+     }
 
 }
