@@ -113,23 +113,75 @@
         padding: 20px;
     }
 
+    .briefText2 p {
+        font-size: 14px;
+    }
+
+    #brief2 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+
+    .briefText3 p {
+        font-size: 14px;
+    }
+
+    #brief3 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
     #brief3 {
         display: absolute;
+        position: relative;
         color: black;
-        background-color: white;
-        width: 100%;
+        background-color:white;
         height: 400px;
         text-align: left;
-      
+    }
+
+    #brief3 img {
+        width: 250px;
+        height: auto;
+        bottom: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .briefText3 {
+        padding: 20px;
+    }
+
+    #brief4 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+    #brief4 p {
+        font-size: 14px;
     }
 
     #brief4 {
         display: absolute;
-        background-color: black;
-        width: 100%;
+        position: relative;
+        color: white;
         height: 400px;
-        margin-bottom: 50px;
         text-align: left;
+    }
+
+    #brief4 img {
+        width: 250px;
+        height: auto;
+        bottom: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .briefText4 {
+        padding: 20px;
     }
 
     #bottom {
@@ -177,6 +229,10 @@
     
     #brief1 h2 {
         font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+    #brief1 p {
         font-size: 20px;
     }
 
@@ -238,8 +294,25 @@
         height: 350px;
     }
 
+    #brief2 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+    
+    #brief2 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+    #brief3 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
+
     #brief3 {
-        display: absolute;
+        display: flex;
         color: black;
         background-color: white;
         width: 100%;
@@ -247,14 +320,41 @@
         text-align: left;
     }
 
+
+    .briefText3 {
+        padding: 35px;
+    }
+
+    #brief3 img {
+        margin-top: 35px;
+        width: 350px;
+        height: 350px;
+    }
+
+    #brief4 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
+    }
+
     #brief4 {
-        display: absolute;
-        background-color: black;
+        display: flex;
+        color: white;
         width: 100%;
         height: 400px;
-        margin-bottom: 50px;
         text-align: left;
     }
+
+
+    .briefText4 {
+        padding: 35px;
+    }
+
+    #brief4 img {
+        margin-top: 35px;
+        width: 350px;
+        height: 350px;
+    }
+
 
     #bottom {
         margin: 50px;
@@ -373,30 +473,56 @@
         z-index: 1;
     }
     
-    #brief1 h2 {
+
+    #brief3 h2 {
         font-family: 'Futura', sans-serif;
         font-size: 20px;
     }
 
-
     #brief3 {
-        display: absolute;
+        display: flex;
         color: black;
         background-color: white;
         width: 100%;
         height: 400px;
+        justify-content: center;
         text-align: left;
+    }
+
+    .briefText3 {
+        padding: 125px 50px 125px 50px;
+        max-width: 600px;
+    }
+
+    #brief3 img {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    #brief4 h2 {
+        font-family: 'Futura', sans-serif;
+        font-size: 20px;
     }
 
     #brief4 {
-        display: absolute;
-        background-color: black;
+        display: flex;
+        color: white;
         width: 100%;
         height: 400px;
-        margin-bottom: 50px;
+        justify-content: center;
         text-align: left;
     }
 
+    .briefText4 {
+        padding: 125px 50px 125px 50px;
+        max-width: 600px;
+    }
+
+    #brief4 img {
+        width: 400px;
+        height: 400px;
+    }
 
     #bottom {
         margin: 50px;

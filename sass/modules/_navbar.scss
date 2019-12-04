@@ -107,8 +107,22 @@
     color: black;
     background-color:#0E0E0E;
     width: 100%;
+    text-align: left;
     z-index: 999;
   }
+
+ .socialToggle {
+    display: flex;
+    padding: 0px 0px 0px 50px;
+     
+  }
+
+  .socialToggle a {
+    width: 25px;  
+    float: left;
+    padding: 5px;
+  }
+
 
 
 }
@@ -222,6 +236,7 @@
     background-color:#0E0E0E;
     width: 100%;
     z-index: 999;
+    text-align: left;
   }
 
         button {
@@ -233,6 +248,18 @@
         #hamMenu {
             display: none;
         }
+
+        .socialToggle {
+            display: flex;
+            padding: 0px 0px 0px 50px;
+             
+          }
+        
+          .socialToggle a {
+            width: 25px;  
+            float: left;
+            padding: 5px;
+          }
     }
 /*HEADER & TOP NAV*/
 
@@ -283,9 +310,6 @@
 #hamMenu {
     display: none;
 }
-
-
-/*HEADER & TOP NAV*/
 
 
     }
