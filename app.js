@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const hbs = require('hbs');//I think I need this
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -17,15 +18,23 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  var err = new Error ('Not Found');
+  err.status = 404;
+  err.customMessage = "Oh no, somethin' broke!"
+
+  next(err);
 });
+
+app.use((err, req, res, next) => {            //add for custom 404 error message
+  res.render('error', {data: err, layout: 'errorPage'});
+})
 
 // error handler
 app.use(function(err, req, res, next) {
