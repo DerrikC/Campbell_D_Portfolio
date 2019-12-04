@@ -17,6 +17,8 @@
 
 <body>
         <h2 class="hidden">Main Body</h2>
+
+<div class="contTop">
  <div class="border">
     <section id="navigation">
         <header>
@@ -72,19 +74,29 @@
             </div>    
     </section>
         
-    
-    <form action="">
-        <label for="usermail">Please enter your email address:</label>
-        <input type="email" name="usermail" required>
-    
-        <label for="name">Please enter your company name (optional)</label>
-        <input type="text" name="company">
-    
-        <label for="message">Please enter your message:</label>
-        <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
-    
-        <input type="submit" value="Send!" class="submit-button">
-    </form>
+ </div>
+  
+    <div class="contactTitle">
+            <h2>Get in Touch!</h2> </div>
+            </div>
+               <section id="contactCont">
+                <div class="contactItems">
+                <form action="">
+                    <label for="usermail"></label>
+                    <input type="email" placeholder="Your Email..." name="usermail" required>
+                
+                    <label for="name"></label>
+                    <input type="text" placeholder="Your Name or Company..." name="company">
+                
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="Your Message..." id="user-message" cols="30" rows="10"></textarea>
+                    
+                    <div class="sendCont">
+                    <input type="submit" value="Send!" class="submit-button">
+                    </div>
+                </form>
+                </div>
+            </section>
 
     <!-- <div class="contactTitle">
          <h2>Get in Touch!</h2> </div>
@@ -102,6 +114,8 @@
     </div>
     </section> -->
 
+    <div class="bottomCont">
+    <section id="bottom">
 
     <section id="pageEnd">
     <div class="bottomLogo">
@@ -125,7 +139,10 @@
     
             <div class="copyright"><h2>2019 © derrikxavier. All Rights Reserved</h2></div>
     </footer>
+    </div>
 </div>
+</section>
+
     <script src="js/main.js"></script> 
 </body>
 </html>

@@ -5,6 +5,7 @@
     .border {
       margin: 50px;
     }
+    
     .contactTitle h2 {
         font-family: 'Futura', sans-serif;
         padding: 5px;
@@ -24,69 +25,9 @@
       }
       
       
-      #contactCont{
-        background-color: #111111;
-        height: 300px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    
-    .contact {
-      text-align: center;
-    }
-
-    .contactText {
-        padding: 50px 25px 25px 25px;
-    }
-    
-    
-    .contactItems h2 {
-        color: black;
-        font-size: 40px;
-      }
-      
-     
-      .contactItems input[type="text"] {
-        margin-bottom: 15px;
-        padding: 5px;
-        width: 80%;
-        border: none;
-        font-family: 'Futura', sans-serif;
-      }
-      
-      .contactItems textarea {
-        border: none;
-        font-family: 'Futura', sans-serif;
-        resize: none;
-        padding: 5px;
-        width: 80%;
-        height: 100px;
-        overflow-x: auto;
-      }
-      
-    
-      .contact a{
-        width: 60px;
-        float:right;
-        display: block;
-        background-color: #D2EBE5;
-        color: black;
-        font-size: 10px;
-        text-decoration: none;
-        font-family: 'Futura', sans-serif;
-        padding: 5px;
-        right: 10;
-      }
-    
-    }
-
-@media (max-width:768px) and (min-width: 501px) {
-
-    .border {
-      margin: 50px;
-    }
+      .border {
+        margin: 50px;
+   }
 
     .contactTitle h2 {
         font-family: 'Futura', sans-serif;
@@ -107,29 +48,35 @@
           padding: 7px;
       }
       
-      
       #contactCont{
         background-color: #111111;
         height: 300px;
         margin-top: 15px;
         margin-bottom: 15px;
+        max-width: 900px;
         margin: 0 auto;
+        padding: 50px;
     }
-    
-    .contact {
-      text-align: center;
-    }
-
-    .contactText {
-        padding: 50px 25px 25px 25px;
-    }
-    
     
     .contactItems h2 {
         color: black;
         font-size: 40px;
+
       }
-      
+      .contactItems input[type="email"] {
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 80%;
+        border: none;
+        font-family: 'Futura', sans-serif;
+      }
+      .contactItems input[type="message"] {
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 80%;
+        border: none;
+        font-family: 'Futura', sans-serif;
+      }
      
       .contactItems input[type="text"] {
         margin-bottom: 15px;
@@ -149,19 +96,130 @@
         overflow-x: auto;
       }
       
-    
-      .contact a{
+     .sendCont {
+       margin-right: 100px;
+       padding: 15px 5px 5px 5px;
+     }
+
+     .submit-button {
+        position: relative;
         width: 60px;
-        float:right;
-        display: block;
         background-color: #D2EBE5;
         color: black;
         font-size: 10px;
         text-decoration: none;
         font-family: 'Futura', sans-serif;
         padding: 5px;
-        right: 10;
+        border: 0;
+        right: 0;
       }
+
+      .bottomCont {
+        display: relative;
+        max-width: 2020px;
+        margin: 0 auto;
+    }
+    
+    }
+
+@media (max-width:768px) and (min-width: 501px) {
+
+  .border {
+    margin: 50px;
+}
+
+.contactTitle h2 {
+    font-family: 'Futura', sans-serif;
+    padding: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.socialContact {
+    width: 400px;
+    display: flex;
+    padding: 0px 15px 15px 15px;
+  }
+  
+  .socialContact li{
+      width: 25px;  
+      float: left;
+      padding: 7px;
+  }
+  
+  #contactCont{
+    background-color: #111111;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.contactItems h2 {
+    color: black;
+    font-size: 40px;
+
+  }
+  .contactItems input[type="email"] {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    border: none;
+    font-family: 'Futura', sans-serif;
+  }
+  .contactItems input[type="message"] {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    border: none;
+    font-family: 'Futura', sans-serif;
+  }
+ 
+  .contactItems input[type="text"] {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    border: none;
+    font-family: 'Futura', sans-serif;
+  }
+  
+  .contactItems textarea {
+    border: none;
+    font-family: 'Futura', sans-serif;
+    resize: none;
+    padding: 5px;
+    width: 80%;
+    height: 100px;
+    overflow-x: auto;
+  }
+  
+ .sendCont {
+   max-width: 100px;
+   max-height: 100px;
+   margin-left: 80%;
+   padding: 15px 5px 5px 5px;
+ }
+
+ .submit-button {
+    position: relative;
+    width: 60px;
+    background-color: #D2EBE5;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    padding: 5px;
+    border: 0;
+    right:0;
+  }
+
+  .bottomCont {
+    display: relative;
+    max-width: 2020px;
+    margin: 0 auto;
+}
 
     }
 
@@ -197,24 +255,28 @@
             margin-bottom: 15px;
             max-width: 900px;
             margin: 0 auto;
+            padding: 50px;
         }
-
-        
-        .contact {
-          text-align: center;
-        }
-    
-        .contactText {
-            padding: 50px 25px 25px 25px;
-        }
-        
         
         .contactItems h2 {
             color: black;
             font-size: 40px;
 
           }
-          
+          .contactItems input[type="email"] {
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 80%;
+            border: none;
+            font-family: 'Futura', sans-serif;
+          }
+          .contactItems input[type="message"] {
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 80%;
+            border: none;
+            font-family: 'Futura', sans-serif;
+          }
          
           .contactItems input[type="text"] {
             margin-bottom: 15px;
@@ -234,17 +296,29 @@
             overflow-x: auto;
           }
           
-        
-          .contact a{
+         .sendCont {
+           max-width: 100px;
+           max-height: 100px;
+           margin-left: 80%;
+           padding: 15px 5px 5px 5px;
+         }
+
+         .submit-button {
+            position: relative;
             width: 60px;
-            float:right;
-            display: block;
             background-color: #D2EBE5;
             color: black;
             font-size: 10px;
             text-decoration: none;
             font-family: 'Futura', sans-serif;
             padding: 5px;
-            right: 10;
+            border: 0;
+            right:0;
           }
+
+          .bottomCont {
+            display: relative;
+            max-width: 2020px;
+            margin: 0 auto;
+        }
         }

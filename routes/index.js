@@ -45,4 +45,3 @@ router.post('/mail', (req, res) => {
 module.exports = router;
 
 
-module.exports = router;
