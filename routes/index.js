@@ -40,6 +40,37 @@ router.post('/mail', (req, res) => {
 			res.json(info);
 		}
 	});
+
+
+
+// FOR CLEARDB DATABASE
+//TESTING USING DATA TO RENDER AN IMAGE OR TEXT
+
+// const sql = require('../utils/sql');
+
+// router.get('/', (req, res) => { //res making a request of the server 
+//     // should really get the user data here and then fetch it thru, but let's try this asynchronously
+//     console.log('at the main route');
+
+//     let query = "SELECT ID, project1Image, FROM tbl_projects"; //change if needed!!!!!!
+
+//     sql.query(query, (err, result) => {
+//         if (err) { throw err; console.log(err); }
+
+//         // console.log(result); // should see objects wrapped in an array
+
+//         // render the home view with dynamic data
+//         res.render('errorPage', { data: result }); //data (food) is just a generic key can be anything
+//         // { data: result });
+//     })
+
+
+
+
+
+
+
+
 })
 
 module.exports = router;
