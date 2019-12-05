@@ -99,7 +99,7 @@ body {
     }
 
  
-
+//project video 
     #projectVid {
         display: flex;
         background-color: grey;
@@ -108,7 +108,49 @@ body {
         margin-bottom: 15px;
     }
 
+    .demoReel {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .demoReel video {
+      margin-top: 20%;
+      width: 50%; 
+    }
+    
+      .play {
+          width: 10px;
+          cursor: pointer;
+          padding: 20px;
+        }
+    
+        .stop {
+            width: 10px;
+            cursor: pointer;
+            padding: 20px;
+          }
 
+
+          .rewind {
+            width: 20px;
+            cursor: pointer;
+            padding: 20px;
+          }
+
+          .video-controls i {
+            color: white;
+            font-size: 2em;
+            cursor: pointer;
+            padding: 30px;
+          }
+          
+          .video-controls {
+            top: 200px;
+            display: flex;
+            justify-content: center;
+          }
+        
+        
     .bottomLogo {
         float: left;
         position: relative;
@@ -256,6 +298,47 @@ body {
         height: 200px;
         margin-bottom: 15px;
     }
+
+    .demoReel {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .demoReel video {
+      margin-top: 30%;
+      width: 50%; }
+    
+      .play {
+          width: 15px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .stop {
+          width: 15px;
+          height: 40px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .rewind {
+          width: 25px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .video-controls i {
+          color: white;
+          font-size: 2em;
+          cursor: pointer;
+          padding: 30px;
+        }
+        
+        .video-controls {
+          top: 200px;
+          display: flex;
+          justify-content: center;
+        }
 
 
     .bottomLogo {
@@ -406,6 +489,48 @@ body {
         height: 200px;
         margin-bottom: 15px;
     }
+
+    .demoReel {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .demoReel video {
+      margin-top: 30%;
+      width: 50%; }
+    
+      .play {
+          width: 20px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .stop {
+          width: 20px;
+          height: 40px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .rewind {
+          width: 40px;
+          cursor: pointer;
+          padding: 20px;
+        }
+        
+        .video-controls i {
+          color: white;
+          font-size: 2em;
+          cursor: pointer;
+          padding: 30px;
+        }
+        
+        .video-controls {
+          top: 200px;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 200px;
+        }
 
 
     .bottomLogo {
