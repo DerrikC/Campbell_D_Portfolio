@@ -116,8 +116,15 @@
     
     .tools li {
         display: table-cell;
+        width: 20px;
+        height: 20px;
      }
 
+     .tools img {
+        width: 40px;
+        height: auto;
+        padding: 10px;
+     }
 
 }
 
@@ -238,6 +245,14 @@
     
      .tools li {
         display: table-cell;
+        width: 20px;
+        height: 20px;
+     }
+
+     .tools img {
+        width: 40px;
+        height: auto;
+        padding: 10px;
      }
     
 }
@@ -265,7 +280,7 @@
         padding: 125px 50px 125px 50px;
     }
 
-    #tech img {
+    #tech .startImg {
         width: 400px;
         height: 400px;
     }
@@ -348,6 +363,17 @@
     
      .tools li {
         display: table-cell;
+     }
+     
+     .portText1 li {
+        width: 20px;
+        height: 20px;
+     }
+
+     .tools img {
+        width: 40px;
+        height: auto;
+        padding: 10px;
      }
 
 }
