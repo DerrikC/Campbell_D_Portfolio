@@ -14,8 +14,6 @@
     showMenu.addEventListener("click", toggle);
 
 
-
-
 //Mailer
 
 const form = document.querySelector('form'), submit = form.querySelector('.submit-button');
