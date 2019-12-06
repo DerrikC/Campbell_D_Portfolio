@@ -83,10 +83,9 @@
     <div class="briefText1"><h2>E-commerce Concept</h2> 
 
         {{#each data}}
-          <p>{{project1Image}}</p>
+          <p>{{project1}}</p>
         {{/each}} 
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus odit veniam dolores.</p>
         <a class ="moreInfo" href="/concept">Details</a>
     </div>
     <div class="imgCont"><img src="images/project1.png" alt="project1"></div>
@@ -94,7 +93,11 @@
 
     <section id="brief2">
     <h2 class="hidden">Brief 2</h2>
-    <div class="briefText2"><h2>3D Designs</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus odit veniam dolores.</p>
+    <div class="briefText2"><h2>3D Designs</h2> 
+        {{#each data}}
+          <p>{{project2}}</p>
+        {{/each}} 
+
         <a class ="moreInfo" href="/threedwork">Details</a>
     </div>
     <div class="imgCont"><img src="images/project2.png" alt="project2"></div>
@@ -103,7 +106,12 @@
 
     <section id="brief3">
         <h2 class="hidden">Brief 3</h2>
-        <div class="briefText3"><h2>Digital Paintings</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus odit veniam dolores.</p>
+        <div class="briefText3"><h2>Digital Paintings</h2> 
+        
+        {{#each data}}
+          <p>{{project3}}</p>
+        {{/each}} 
+
             <a class ="moreInfo" href="/digitalpaintings">Details</a>
         </div>
         <div class="imgCont"><img src="images/project4.png" alt="project3"></div>
@@ -112,7 +120,11 @@
 
     <section id="brief4">
         <h2 class="hidden">Brief 4</h2>
-        <div class="briefText4"><h2>Coding & Branding</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus odit veniam dolores.</p>
+        <div class="briefText4"><h2>Coding & Branding</h2> 
+        {{#each data}}
+          <p>{{project4}}</p>
+        {{/each}} 
+
             <a class ="moreInfo" href="/codingbranding">Details</a>
         </div>
         <div class="imgCont"><img src="images/project3.png" alt="project4"></div>
