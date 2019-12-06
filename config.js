@@ -3,7 +3,7 @@
 //     port: 8889, // 8889 for mac
 //     uname: "root",
 //     pword: "root", // leave blank for windows
-//     database: "db_infograph" //change if needed!!!!!!!
+//     database: "db_derrikxavier" //change if needed!!!!!!!
 // }
 
 // module.exports = config;
@@ -11,7 +11,7 @@
 
 
 
-// FOR CLEARDB
+//FOR CLEARDB
 const config = {
     host: "us-cdbr-iron-east-05.cleardb.net",
     port: 3306, // 8889 for mac or 3306

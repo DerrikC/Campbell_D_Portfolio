@@ -33,7 +33,7 @@ app.get('/home', (req, res) => {
 
 
 app.get('/projects', (req, res) => {
-    let query = "SELECT ID, project1Image FROM tbl_projects"; //change if needed!!!!!!
+    let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
