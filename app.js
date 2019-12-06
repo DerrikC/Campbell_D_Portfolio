@@ -7,6 +7,7 @@ const hbs = require('hbs');
 // set the port
 const port = process.env.PORT || 3000;
 
+
 const app = express();
 
 app.use(express.static ('public'));//looks for assets in public folder
