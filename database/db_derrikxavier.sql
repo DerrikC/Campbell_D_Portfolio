@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Dec 04, 2019 at 06:10 AM
+-- Generation Time: Dec 06, 2019 at 06:42 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.8
 
@@ -28,17 +28,18 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `tbl_projects` (
   `ID` int(11) NOT NULL,
-  `project1Image` varchar(40) DEFAULT NULL,
-  `project2Image` varchar(40) DEFAULT NULL,
-  `project3Image` varchar(40) DEFAULT NULL
+  `project1` text,
+  `project2` text,
+  `project3` text,
+  `project4` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_projects`
 --
 
-INSERT INTO `tbl_projects` (`ID`, `project1Image`, `project2Image`, `project3Image`) VALUES
-(1, 'project1.png', 'project2.png', 'project3.png');
+INSERT INTO `tbl_projects` (`ID`, `project1`, `project2`, `project3`, `project4`) VALUES
+(1, 'Being both a painter and a fan of art I decided to design and brand an app that would allow customers to browse through a collection of art pieces.', 'A collection of 3D renders, where I take my art and design beyond a 2D canvas. ', 'I tackle the concept of combining art and practical design with my digital paintings.  \r\n', 'A collection of group projects where I created brand identities, along with sites and applications I have coded. \r\n');
 
 --
 -- Indexes for dumped tables
