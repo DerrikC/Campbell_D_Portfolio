@@ -4,13 +4,40 @@ Design &amp; Coding
 
 ## Description
 
-
+This is a portfolio site that showcases my current work as an interactive media design student.
 
 ## Getting Started
 
 ### Dependencies
+Node.js
 
-Uses CSS3, JavaScript and HTML3 latest features. 
+Uses CSS3, SASS, JavaScript and HTML3 latest features. 
+
+Hosting: Heroku
+Database: ClearDB
+
+### WEB DESIGN 3040 - PHP and MYSQL
+
+Pan’s Class
+
+To access the PHP Contact Form Download the folder
+
+For Mac use port: http://localhost:8888/
+
+Step 1 > Download Repository 
+
+Step 2 > Copy the php_contact_form
+
+Step 3 > Place in MAMPs ‘htdocs’ folder
+
+Step 4 > Use MAMP to run
+
+
+MySQL file will be in the database folder as:
+
+db_derrikxavier.sql
+
+
 
 
 ### Installing
