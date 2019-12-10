@@ -1,6 +1,7 @@
+//Does not crash on localhost
 // const config = {
 //     host: "localhost",
-//     port: 8889, // 8889 for mac
+//     port: 8889, // 8889 for mac or 3306 
 //     uname: "root",
 //     pword: "root", // leave blank for windows
 //     database: "db_derrikxavier" //change if needed!!!!!!!
@@ -11,7 +12,7 @@
 
 
 
-//FOR CLEARDB
+// //FOR CLEARDB
 const config = {
     host: "us-cdbr-iron-east-05.cleardb.net",
     // port: 3306, // 8889 for mac or 3306
@@ -21,3 +22,14 @@ const config = {
 }
 
 module.exports = config;
+
+// //FOR CLEARDB with fully named (password-username)
+// const config = {
+//     host: "us-cdbr-iron-east-05.cleardb.net",
+//     // port: 3306, // 8889 for mac or 3306
+//     username: "b70d446521492c",
+//     password: "16d6779b", 
+//     database: "heroku_19d039a62561a40" //change if needed!!!!!!!
+// }
+
+// module.exports = config;
