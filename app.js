@@ -5,7 +5,7 @@ const path = require('path');
 const hbs = require('hbs');
 
 
-
+const sql = require('./utils/sql');
 //trying to restore older version
 // set the port
 const port = process.env.PORT || 3000;
@@ -22,10 +22,6 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
-
-
-const sql = require('./utils/sql');
-
 //adding pages
 
 
@@ -35,20 +31,88 @@ app.get('/home', (req, res) => {
     res.render('home', { message: "intro", layout: 'home'})
 })
 
+// projects page with no data
+// app.get('/projects', (req, res) => {
+//     console.log('projects');
 
+//     res.render('projects', { message: "intro", layout: 'projects'})
+// })
+
+//projects with data attempt again
 app.get('/projects', (req, res) => {
-    let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
+
+    // console.log('projects with data');
+    // //send to custom error message
+    // if (err) { return console.log(error.message); }
+    // sql.getConnection((err, connection) => {
+    //             if (err) { return console.log(error.message); }
+
+    let query = `SELECT ID, project1, project2, project3, project4 FROM tbl_projects`; //change if needed!!!!!!
 
     sql.query(query, (err, result) => {
-        if (err) { throw err; console.log(err); }
+        // connection.release(); // send this connection back to the pool
 
-        // console.log(result); // should see objects wrapped in an array
+        if (err) {
+            // will exit the function and log the error
+            return console.log(err.message)
+        }
 
-        // render the home view with dynamic data
-        res.render('projects',  { data: result, layout: 'projects' });
+        // console.log(result);
+
+    res.render('projects', { data: result, message: "project info", layout: 'projects'})
+    })
+})
+// })
+
+
+//projects data render attempt
+// app.get('/projects', (req, res) => {
+//     console.log('projects with data');
+//     if (err) { return console.log(error.message); }
+//     connect.getConnection((err, connection) => {
+//                 if (err) { return console.log(error.message); }
+
+//     let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
+    
+//     connect.query(query, (err, result) => {
+//         // connection.release(); // send this connection back to the pool
+
+//         if (err) {
+//             // will exit the function and log the error
+//             return console.log(err.message);
+//         }
+
+//         console.log(result);
+
+//     res.render('projects', { data: result, message: "my work", layout: 'projects'})
+// })
+// })
+// })
+
+// app.get('/projects', (req, res) => {
+//     // if (err) { return console.log(error.message); }
+    
+//     connect.getConnection((err, connection) => {
+//         if (err) { return console.log(error.message); }
+        
+//         let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
+
+//     connect.query(query, (err, result) => {
+//         connection.release(); // send this connection back to the pool
+//         if (err) { throw err; console.log(err); }
+// 	// if (err) {
+//     //     // will exit the function and log the error
+//     //     return console.log(err.message);
+//     // }
+//         // console.log(result); // should see objects wrapped in an array
+
+//         // render the home view with dynamic data
+//         res.render('projects',  { data: result, layout: 'projects' });
       
-})
-})
+// })
+// })
+
+// })
 
 app.get('/about', (req, res) => {
     console.log('about page');
@@ -108,7 +172,7 @@ app.use((err, req, res, next) => {            //add for custom 404 error message
 
 app.listen(port, () => {
     console.log(`app is running on ${port}`);
-})
+});
 
 // app.listen(3000);
 
