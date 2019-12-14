@@ -22,8 +22,10 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
-//adding pages
 
+
+
+//adding pages, rendering 
 
 app.get('/home', (req, res) => {
     console.log('home page here');
@@ -62,57 +64,6 @@ app.get('/projects', (req, res) => {
     res.render('projects', { data: result, message: "project info", layout: 'projects'})
     })
 })
-// })
-
-
-//projects data render attempt
-// app.get('/projects', (req, res) => {
-//     console.log('projects with data');
-//     if (err) { return console.log(error.message); }
-//     connect.getConnection((err, connection) => {
-//                 if (err) { return console.log(error.message); }
-
-//     let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
-    
-//     connect.query(query, (err, result) => {
-//         // connection.release(); // send this connection back to the pool
-
-//         if (err) {
-//             // will exit the function and log the error
-//             return console.log(err.message);
-//         }
-
-//         console.log(result);
-
-//     res.render('projects', { data: result, message: "my work", layout: 'projects'})
-// })
-// })
-// })
-
-// app.get('/projects', (req, res) => {
-//     // if (err) { return console.log(error.message); }
-    
-//     connect.getConnection((err, connection) => {
-//         if (err) { return console.log(error.message); }
-        
-//         let query = "SELECT ID, project1, project2, project3, project4 FROM tbl_projects"; //change if needed!!!!!!
-
-//     connect.query(query, (err, result) => {
-//         connection.release(); // send this connection back to the pool
-//         if (err) { throw err; console.log(err); }
-// 	// if (err) {
-//     //     // will exit the function and log the error
-//     //     return console.log(err.message);
-//     // }
-//         // console.log(result); // should see objects wrapped in an array
-
-//         // render the home view with dynamic data
-//         res.render('projects',  { data: result, layout: 'projects' });
-      
-// })
-// })
-
-// })
 
 app.get('/about', (req, res) => {
     console.log('about page');
@@ -174,58 +125,4 @@ app.listen(port, () => {
     console.log(`app is running on ${port}`);
 });
 
-// app.listen(3000);
 
-
-
-//OLD FOR ERROR PAGE
-// var createError = require('http-errors');
-// var express = require('express');
-// var path = require('path');
-// var cookieParser = require('cookie-parser');
-// var logger = require('morgan');
-// const hbs = require('hbs');//I think I need this
-
-// var indexRouter = require('./routes/index');
-// var usersRouter = require('./routes/users');
-
-// var app = express();
-
-// // view engine setup
-// app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'hbs');
-
-// app.use(logger('dev'));
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: false }));
-// app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, '/public')));
-
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
-
-// // catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//   var err = new Error ('Not Found');
-//   err.status = 404;
-//   err.customMessage = "Oh no, somethin' broke!"
-
-//   next(err);
-// });
-
-// app.use((err, req, res, next) => {            //add for custom 404 error message
-//   res.render('error', {data: err, layout: 'errorPage'});
-// })
-
-// // error handler
-// app.use(function(err, req, res, next) {
-//   // set locals, only providing error in development
-//   res.locals.message = err.message;
-//   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-//   // render the error page
-//   res.status(err.status || 500);
-//   res.render('error');
-// });
-
-// module.exports = app;
