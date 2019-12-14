@@ -1,3 +1,5 @@
+//pool connection for database
+
 var config = require('../config');
 var mysql = require('mysql');
 

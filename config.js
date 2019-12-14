@@ -10,8 +10,6 @@
 // module.exports = config;
 
 
-
-
 // //FOR CLEARDB
 const config = {
     host: "us-cdbr-iron-east-05.cleardb.net",
@@ -23,13 +21,3 @@ const config = {
 
 module.exports = config;
 
-// //FOR CLEARDB with fully named (password-username)
-// const config = {
-//     host: "us-cdbr-iron-east-05.cleardb.net",
-//     // port: 3306, // 8889 for mac or 3306
-//     username: "b70d446521492c",
-//     password: "16d6779b", 
-//     database: "heroku_19d039a62561a40" //change if needed!!!!!!!
-// }
-
-// module.exports = config;
