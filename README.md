@@ -9,9 +9,10 @@ This is a portfolio site that showcases my current work as an interactive media 
 ## Getting Started
 
 ### Dependencies
+Express
 Node.js
 
-Uses CSS3, SASS, JavaScript and HTML3 latest features. 
+Uses CSS3, SASS, JavaScript and HTML5 latest features. 
 
 Hosting: Heroku
 Database: ClearDB
@@ -62,4 +63,7 @@ This project is licensed under the derrikxavier License - see the LICENSE.md fil
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Trevor Van Rys - Fanshawe College
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+
