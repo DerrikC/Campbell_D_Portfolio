@@ -24,13 +24,27 @@ text-align: center;
 
 /*BODY CONTENT*/
 
-
-.introText p {
-    color: #525050;
-    font-size: 15px;
-    font-family: 'Libre Baskerville', serif;
+#intro h1 {
+    width: 300px;
 }
 
+.introText p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+}
+
+.part2 {
+    display: flex; 
+    flex-wrap: wrap;
+    // margin-top: 80px;
+    max-width: 500px; 
+    display: inline-block;
+    // margin: 25px 0px 25px 0px;
+    line-height: 2.5;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+ }
 
 header {
     display: absolute;
@@ -40,10 +54,8 @@ header {
 }
 
 body h1 {
-    font-size: 3rem;
     font-family: 'Oswald', sans-serif;
-    margin: 25px 0px 25px 0px;
-
+    // margin: 25px 0px 25px 0px;
 }
 
 body p {
@@ -57,17 +69,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     background-color: map-get($colors, mainColor);
-
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-    }
 
     main {
         font-size: 15px;
@@ -237,6 +238,10 @@ body {
        
     }
 
+    #bottomNav {
+        margin: 0 auto;
+    }
+
 }
 
 /*BODY CONTENT*/
@@ -270,11 +275,41 @@ body {
 
 /*BODY CONTENT*/
 
+#introDesc {
+    padding-bottom: 50px;
+}
+
+.part1 {
+   display: flex;
+   margin-top: 80px;
+   width: 100%; 
+   display: inline-block;
+   font-size: 3rem;
+   line-height: 1.5em;
+   font-family: 'Oswald', sans-serif;
+   padding-right: 10%;
+}
+
+.part2 {
+    display: flex;
+    // margin-top: 80px;
+    width: 100%; 
+    display: inline-block;
+    // margin: 25px 0px 25px 0px;
+    line-height:  1.5em;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+ }
+
+#intro h1 {
+    width: 300px;
+}
+
 .introText p {
     color: #525050;
     font-size: 15px;
-    width: 55%;
-    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5;
+    width: 35%;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -286,9 +321,8 @@ header {
 
 
 body h1 {
-    font-size: 4rem;
     font-family: 'Oswald', sans-serif;
-    margin: 25px 0px 25px 0px;
+    // margin: 25px 0px 25px 0px;
 }
 
 body p {
@@ -302,17 +336,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     background-color: map-get($colors, mainColor);
-
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-    }
 
     main {
         font-size: 15px;
@@ -502,22 +525,70 @@ body {
    padding: 10px;
 }
 
+#bottomNav {
+    margin: 0 auto;
+}
+
 }
 
 
 /*Desktop------------------------------*/
 @media (min-width: 769px){
 
+#introDesc {
+    margin-bottom: 50px;
+}
+
+.part1 {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 80px;
+   width: 50%;
+   display: inline-block;
+   font-size: 3rem;
+   line-height: 1.5;
+   font-family: 'Oswald', sans-serif;
+   padding-right: 10%;
+}
+
+.part2 {
+    display: flex; 
+    flex-wrap: wrap;
+    // margin-top: 80px;
+    width: 50%; 
+    display: inline-block;
+    // margin: 25px 0px 25px 0px;
+    line-height: 2.5;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+ }
+
 .introText p {
-    color: #525050;
+    color: white;
     font-size: 15px;
-    width: 55%;
-    font-family: 'Libre Baskerville', serif;
+    line-height: 2;
+    width: 25px;
+    font-family: 'Futura', Arial, Helvetica, sans-serif;
+    float: right;
     }
 
     #burgBtn {
         display: none;
     }
+
+    .arrow {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+  }
+
+  
+
 
 /*BODY CONTENT*/
 header {
@@ -528,9 +599,9 @@ header {
 }
 
 body h1 {
-    font-size: 4rem;
+    // font-size: 16px;
     font-family: 'Oswald', sans-serif;
-    margin: 25px 0px 25px 0px;
+    // margin: 25px 0px 25px 0px;
 }
 
 body p {
@@ -544,18 +615,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     background-color: map-get($colors, mainColor);
-
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/* creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right:0;
-        position: absolute;
-        z-index: -1;
-        
-    }
 
     main {
         font-size: 15px;
@@ -745,4 +804,9 @@ body {
    width: 30px;
    padding: 10px;
 }
+
+#bottomNav {
+    margin: 0 auto;
+}
+
 }

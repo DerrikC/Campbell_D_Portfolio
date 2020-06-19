@@ -18,7 +18,7 @@ header {
 }
 
 body h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -34,17 +34,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     background-color: map-get($colors, mainColor);
-
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-    }
 
     main {
         font-size: 15px;
@@ -71,7 +60,8 @@ body {
      
      .bioText p {
         font-size: 8px;
-        font-family: 'Libre Baskerville', serif;
+        line-height: 1.5;
+        font-family: 'Futura', Arial, Helvetica, sans-serif;
         color: #A2A2A2;
      }
 
@@ -212,7 +202,7 @@ header {
 
 
 body h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -228,17 +218,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     background-color: map-get($colors, mainColor);
-
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/*creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-    }
 
     main {
         font-size: 15px;
@@ -265,7 +244,8 @@ body {
      
      .bioText p {
         font-size: 8px;
-        font-family: 'Libre Baskerville', serif;
+        line-height: 1.5;
+        font-family: 'Futura', Arial, Helvetica, sans-serif;
         color: #A2A2A2;
      }
 
@@ -401,7 +381,7 @@ header {
 }
 
 body h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: 'Oswald', sans-serif;
     margin: 25px 0px 25px 0px;
 }
@@ -418,17 +398,6 @@ body {
     color: white;
     background-color: map-get($colors, mainColor);
 
-    #backgroundAccent {
-        background-color: map-get($colors, homeTriangle);
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-        clip-path: polygon(100% 0, 100% 100%, 50% 50%);/* creates the decorative background triangle*/
-        height: 100%;
-        width: 100%;
-        right:0;
-        position: absolute;
-        z-index: -1;
-        
-    }
 
     main {
         font-size: 15px;
@@ -457,7 +426,8 @@ body {
      
      .bioText p {
         font-size: 18px;
-        font-family: 'Libre Baskerville', serif;
+        line-height: 1.5;
+        font-family: 'Futura', Arial, Helvetica, sans-serif;
         color: #A2A2A2;
      }
 
